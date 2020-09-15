@@ -1,0 +1,79 @@
+
+.header{
+    background-image:
+     /* linear-gradient(to right, rgb(255, 255, 255), 
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0.753),
+     rgba(255, 255, 255, 0)),  */
+    url('/images/header.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+#sqrs div:nth-child(1){
+    margin-top: 50px;
+}
+
+.img-1{
+    width: 80%;
+    margin: 7px;
+}
+
+.img-2{
+    width: 100%;
+    margin: 7px;
+}
+
+.img-1, .img-2{
+    border-radius: 20px;
+}
+#sqrs div{
+display: flex;
+flex-direction: column;
+}
+#sqrs div:nth-child(1){
+    align-items: flex-end;
+}
+#sqrs div:nth-child(2){
+    align-items: flex-start;
+}
+.img-3{
+    border-radius: 20px;  
+    width: 100%;
+    height: 50%;
+   
+
+}
+
+.a{
+    background-image: url('/images/images-82.jpeg');
+    background-repeat: no-repeat;
+    height: 50vh;
+    border-radius: 20px;
+    background-size: cover;
+}
+.message{
+    text-align: center;
+    color: white;
+}
+strong{
+    color: tomato;
+}
+.b{
+    border: none;
+    
+}
+.b img{
+    border-radius: 20px;
+}
+
+.c{
+    background-image: url('/images/meat9c.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    height: 21vh;
+}
